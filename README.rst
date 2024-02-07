@@ -5,6 +5,8 @@ This repository is an attempt to answer the age-old interview question "What
 happens when you type google.com into your browser's address box and press
 enter?"
 
+In summary, when you type "https://www.google.com" in your browser, you trigger a sequence of events involving DNS resolution, TCP/IP communication, firewall traversal, secure HTTPS encryption, load balancing, web server processing, application server interaction, and database operations. This intricate process seamlessly delivers the desired content to your browser, allowing you to access Google's vast array of services with just a few keystrokes.
+
 Except instead of the usual story, we're going to try to answer this question
 in as much detail as possible. No skipping out on anything.
 
